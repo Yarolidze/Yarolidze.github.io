@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.photo{
+	margin-left:-30px;
+}
+.main-wrap{
+	width: 980px;
+	margin:0 auto;
+	display: flex;
+}
+.left-side{
+	
+	width: 350px;
+	padding-top:30px;
+	padding-left:30px;
+	background-color:#1e2939;
+	color:#fff;
+}
+.left-side_title{
+	padding-bottom:10px;
+	font-size:1.2em;
+	font-weight:bold;
+	
+}
+
+.contacts i{
+	color:#fff;
+}
+.phone a{
+	margin-bottom:10px;
+	text-decoration:none;
+}
+.phone a, .mail a{
+	color:#767681;
+}
+.contacts, .skills{
+	padding-top:40px;
+}
+.skills ul{
+	padding-left:15px;
+}
+.skills ul li::marker{
+	color:#f36c3e;
+}
+.right-side{
+	width: 630px;
+	padding-left: 50px;
+}
+.right-side_title{
+	padding-top:25px;
+	padding-bottom:10px;
+	font-size:1.2em;
+	font-weight:bold;
+	
+}
+.spec{
+	padding-top: 75px;
+	font-weight:bold;
+}
+.name{
+	padding-top: 25px;
+	font-size:2.5em;
+	font-weight:bold;
+}
+.about-me{
+	padding-top: 25px;
+}
+.schools{
+	color:orange;
+	font-size:1.2em;
+	font-weight:bold;
+}
